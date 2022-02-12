@@ -1,0 +1,54 @@
+/* 
+=============================================
+                Fonts Load
+=============================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+
+.slider-caption {
+    font-family: 'Gideon Roman', cursive;
+    color: black;
+}
+
+
+.slider-caption h3 {
+    margin-right: 45%;
+    font-weight: 600;
+    text-shadow: 2px 5px 8px rgba(0, 0, 0, 0.57);
+}
+
+.slider-caption p {
+    /* position: absolute; */
+    /* font-size: 40px; */
+    margin-bottom: 20%;
+    margin-right: 45%;
+    font-weight: 400;
+    text-shadow: 2px 5px 8px rgba(0, 0, 0, 0.57);
+}
+
+
+
+/* 
+=================================================
+                    Media Query
+=================================================
+*/
+
+@media screen and (max-width: 480px) {
+    .slider-caption h3 {
+        font-size: 0.625rem;
+        margin-right: 49%;
+        font-weight: 600;
+        text-shadow: 2px 5px 8px rgba(0, 0, 0, 0.57);
+    }
+
+    .slider-caption p {
+        /* position: absolute; */
+        font-size: 0.425rem;
+        margin-bottom: 8%;
+        margin-right: 45%;
+        font-weight: 400;
+        text-shadow: 2px 5px 8px rgba(0, 0, 0, 0.57);
+    }
+}

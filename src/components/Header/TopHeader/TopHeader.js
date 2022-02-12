@@ -18,7 +18,7 @@ const TopHeader = () => {
                         <span>Mon - Sat: 8.00 am - 7.00 pm</span>
                     </div>
                 </div>
-                <div className='top-social gap-4'>
+                <div className='top-social'>
                     <span><FaFacebookF /></span>
                     <span><FaTwitter /></span>
                     <span><FaYoutube /></span>

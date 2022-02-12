@@ -1,0 +1,32 @@
+.nav-a a {
+    color: #666;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 18px;
+    position: relative;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.nav-a a:hover {
+    color: #fff !important;
+    background-color: #007500;
+}
+
+
+
+
+
+
+/* 
+==================================================
+                    Media Query
+==================================================
+*/
+
+@media screen and (max-width: 480px) {
+    .brand-logo img {
+        width: 50%;
+    }
+}
