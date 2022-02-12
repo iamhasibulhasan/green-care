@@ -1,6 +1,6 @@
-<div style="text-align:center">
+<p style="text-align:center">
     <img src="src/green-care-img/Green Care.png">
-</div>
+</p>
 
 # Green Care
 
