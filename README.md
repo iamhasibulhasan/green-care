@@ -31,5 +31,5 @@ https://hasibul-hasan.netlify.app/
 
 </br>
 
-### All rights reserved. [Hasibul Hasan](https://hasibul-hasan.netlify.app/) :neutral_face:
+#### :copyright: All rights reserved. [Hasibul Hasan](https://hasibul-hasan.netlify.app/) :neutral_face:
 
