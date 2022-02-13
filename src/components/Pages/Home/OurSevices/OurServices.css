@@ -1,0 +1,119 @@
+/* ========================== ==
+                Utilities 
+================================ 
+*/
+
+
+
+
+/* Main Css */
+.our-services {
+    background-color: #FEFEFF;
+}
+
+.section-title {
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.section-title span {
+    display: block;
+    margin-bottom: 5px;
+    color: #19ce67;
+    font-size: 17px;
+}
+
+.section-title h2 {
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.section-title p {
+    max-width: 520px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+.service {
+    margin-bottom: 30px;
+    padding: 40px 38px;
+    transition: 0.7s;
+    background-repeat: no-repeat;
+    box-shadow: 0 10px 55px 5px rgb(137 173 255 / 20%);
+}
+
+.service:hover {
+    background-color: #19ce67;
+}
+
+.service:hover .service-icon {
+    border-radius: 50%;
+    background-color: white;
+}
+
+.service-icon {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #19ce67;
+    background-color: #F0F5FF;
+    display: inline-flex;
+    padding: 15px;
+    transition: 0.5s;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+}
+
+.service:hover .service-info h3 {
+    color: white;
+}
+
+.service-info h3 {
+    transition: 0.5s;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.service:hover .service-info p {
+    color: white;
+}
+
+.service-info p {
+    color: #7d7d7d;
+    line-height: 1.8;
+    margin-bottom: 12px;
+    font-size: 14.5px;
+    font-family: "Rubik", sans-serif;
+    transition: 0.5s;
+}
+
+.service-info a {
+    text-decoration: none;
+    color: #19ce67;
+    display: inline-block;
+    margin-top: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    transition: color 0.5s;
+}
+
+.service:hover .service-info a {
+    color: white;
+}
+
+.service-info a:hover {
+    color: black !important;
+}
