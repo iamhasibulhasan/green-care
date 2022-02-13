@@ -1,0 +1,91 @@
+/* 
+    ===============================================================
+                        Utilities
+    ===============================================================
+*/
+
+
+
+
+.footer {
+    background-color: #121521;
+    color: azure;
+}
+
+.footer-col {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-items: stretch;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.footer-social p {
+    padding: 0.5em;
+    border-radius: 63%;
+    transition: 0.3s;
+    width: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #545454;
+    margin-right: 15px;
+}
+
+.footer-social p:hover {
+    background-color: #007500;
+    transform: scale(1.2);
+}
+
+.footer-2 h2,
+.footer-3 h2,
+.footer-4 h2 {
+    margin-top: 25px;
+    margin-bottom: 52px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.links ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.links li {
+    margin-bottom: 10px;
+    color: #cecece;
+    font-size: 14.5px;
+    font-family: "Rubik", sans-serif;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.links li:hover {
+    color: #19ce67;
+}
+
+.opening-hours ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.opening-hours li {
+    color: #cecece;
+    border-bottom: 1px solid #393c49;
+    overflow: hidden;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+}
+
+.opening-hours li span {
+    float: right;
+}
