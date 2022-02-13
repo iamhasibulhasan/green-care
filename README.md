@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://hasibul-hasan.netlify.app/">
-         <img src="src/green-care-img/Green Care.png">
+         <img src="https://i.ibb.co/cTrcXDr/Green-Care-light.png">
    </a>
 </p>
 
