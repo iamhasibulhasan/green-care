@@ -117,3 +117,20 @@
 .service-info a:hover {
     color: black !important;
 }
+
+/* 
+=================================================================================
+                                    Media Query
+=================================================================================
+*/
+
+@media screen and (max-width: 480px) {
+    .section-title h2 {
+        font-size: 25px;
+    }
+
+    .services-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
