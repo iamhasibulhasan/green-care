@@ -1,4 +1,5 @@
 import React from 'react';
+import FunFacts from '../FunFacts/FunFacts';
 import OurDoctors from '../OurDoctors/OurDoctors';
 import OurServices from '../OurSevices/OurServices';
 import Slider from '../Slider/Slider';
@@ -10,6 +11,7 @@ const Home = () => {
             <Slider></Slider>
             <OurServices></OurServices>
             <OurDoctors></OurDoctors>
+            <FunFacts></FunFacts>
         </div>
     );
 };

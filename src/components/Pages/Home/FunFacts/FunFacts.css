@@ -1,0 +1,58 @@
+/* 
+===================================================
+                Utilities
+===================================================
+*/
+
+
+
+/* 
+===================================================
+                Main CSS
+===================================================
+*/
+
+.fun-facts-area {
+    position: relative;
+    z-index: 1;
+    background-color: #121521;
+    background-image: url(https://i.ibb.co/nbGWP8y/map-bg1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.single-fun-facts {
+    text-align: center;
+    color: white;
+}
+
+.single-fun-facts .fun-fact-icon {
+    font-size: 45px;
+    color: #19ce67;
+    margin-bottom: 10px;
+}
+
+.single-fun-facts h3 {
+    color: #ffffff;
+    margin-bottom: 0;
+    position: relative;
+    padding-left: 5px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.single-fun-facts h3 .optional-icon {
+    top: -25px;
+    right: 5px;
+    position: relative;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.single-fun-facts p {
+    color: #19ce67;
+    line-height: initial;
+    margin-top: 5px;
+}
