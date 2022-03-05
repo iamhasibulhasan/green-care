@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Link, NavLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
@@ -12,12 +13,12 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
                     <Nav className="nav-a gap-3">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">About</Nav.Link>
-                        <Nav.Link href="#link">Doctors</Nav.Link>
-                        <Nav.Link href="#link">Services</Nav.Link>
-                        <Nav.Link href="#link">Contact</Nav.Link>
-                        <Nav.Link href="#link">Login/Register</Nav.Link>
+                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/doctors">Doctors</NavLink>
+                        <NavLink to="/services">Services</NavLink>
+                        <NavLink to="/about-us">About</NavLink>
+                        <NavLink to="/contact-us">Contact</NavLink>
+                        <NavLink to="/login">Login/Register</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

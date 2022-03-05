@@ -1,0 +1,98 @@
+ [
+  {
+    "id": 1,
+    "service_code": "GC101",
+    "service_title": "Adult Care",
+    "service_description": "Your loved one may be able to get the care they need AND remain in the home they love. PACE (Program of All-inclusive Care for the Elderly) is a unique kind of care that has helped thousands of seniors continue living in the community. CarePartners PACE (Program of All-inclusive Care for the Elderly) is a program for people age 55 or older that need support to remain safely at home. It provides community-based care and services for people who might otherwise need a nursing home level of care. A PACE program works to promote and sustain the independence of seniors, and help those who want to live at home, stay at home.",
+    "img": "https://i.ibb.co/TmsWtBf/positive-mother-daughter-enjoying-dramatic-view.jpg",
+    "doctor": "Dr. Hasibul Hasan"
+  },
+  {
+    "id": 2,
+    "service_code": "GC102",
+    "service_title": "Cancer Care",
+    "service_description": "Mission Cancer brings together a multidisciplinary team of physicians, caregivers and support staff who serve western North Carolina with the region’s most comprehensive cancer care. At Mission, we understand that patients prefer to receive coordinated care in a single, centralized location, and offer a variety of integrated, disease-focused services that encompass the entire continuum of cancer care, from prevention to diagnosis to treatment to survivorship.At Mission Cancer, we combine compassion, skill and expertise, serving with the personal touch of a community cancer center while providing access to the most advanced treatments, state-of-the-art technology, hundreds of clinical trials and individualized patient navigation available only at Mission.",
+    "img": "https://i.ibb.co/Vv94Yz9/woman-suffering-breast-cancer-talking-with-her-doctor.jpg",
+    "doctor": "Dr. Abu Raihan"
+  },
+  {
+    "id": 3,
+    "service_code": "GC103",
+    "service_title": "Heart Care",
+    "service_description": "For more than 40 years, Mission Heart has been a regional leader in cardiothoracic surgery and heart care. Committed to excellence and superior outcomes, our award-winning team offers years of specialized clinical experience and is dedicated to providing the best possible care with skill and compassion to patients in western North Carolina. Our physician teams with Asheville Cardiology Associates and Asheville Heart deliver a team-oriented, comprehensive approach to patient heart issues, with a high level of technical expertise and experience.",
+    "img": "https://i.ibb.co/k6Sqsw0/surgeon-with-heart.jpg",
+    "doctor": "Dr. Afia Rahman"
+  },
+  {
+    "id": 4,
+    "service_code": "GC104",
+    "service_title": "Maternity Care",
+    "service_description": "Celebrate your baby’s birthday with us! Mission Health offers two conveniently located labor and delivery hospitals, Mission Hospital in Asheville and Mission Hospital McDowell in Marion. The birthing hospitals at Mission Health strive to provide the care you want during one of the most memorable times of your life. We offer supportive care for patients who desire minimal intervention and the safety of a hospital setting. We also offer the most critical care when your health or the health of your baby is at stake. Patient safety and satisfaction are our most important goals.",
+    "img": "https://i.ibb.co/RPyM1vR/young-asian-pregnant-woman-holding-her-belly-talking-with-her-child-mom-feeling-happy-smiling-positi.jpg",
+    "doctor": "Dr. Tithi Ghosh"
+  },
+  {
+    "id": 5,
+    "service_code": "GC105",
+    "service_title": "Maternity Care",
+    "service_description": "Celebrate your baby’s birthday with us! Mission Health offers two conveniently located labor and delivery hospitals, Mission Hospital in Asheville and Mission Hospital McDowell in Marion. The birthing hospitals at Mission Health strive to provide the care you want during one of the most memorable times of your life. We offer supportive care for patients who desire minimal intervention and the safety of a hospital setting. We also offer the most critical care when your health or the health of your baby is at stake. Patient safety and satisfaction are our most important goals.",
+    "img": "https://i.ibb.co/RPyM1vR/young-asian-pregnant-woman-holding-her-belly-talking-with-her-child-mom-feeling-happy-smiling-positi.jpg",
+    "doctor": "Dr. Tithi Ghosh"
+  },
+  {
+    "id": 6,
+    "service_code": "GC106",
+    "service_title": "Neurology",
+    "service_description": "The inpatient neurology program is comprised of a 14-bed neuro-trauma ICU and a 36-bed, dedicated Neuroscience unit and Stroke Center. Mission is certified by The Joint Commission as a Comprehensive Stroke Center. Our team is made up of neuro hospitalists and neurovascular hospitalists, technicians, nurse practitioners and hospital nurses.We have a team of dedicated, full time neurohospitalists who care for patients admitted to Mission Hospital with acute neurological problems and who work in collaboration with a team of outpatient neurologists committed to providing ongoing neurological care in the office setting. While admitted to the hospital you will be cared for by one of our neurohospitalists and when you transition to outpatient followup care, you will be assigned to one of our outpatient providers.",
+    "img": "https://i.ibb.co/CQRbmcx/female-patient-who-is-concentrated-during-brain-wave-scanning-device-test-doctor-scanning-brain.jpg",
+    "doctor": "Dr. Ummya Honey"
+  },
+  {
+    "id": 7,
+    "service_code": "GC107",
+    "service_title": "Pediatric Care",
+    "service_description": "Dedicated 12-bed Pediatric ER that offers the only board-certified pediatric emergency medicine physicians in western North Carolina.51-bed, Level III Neonatal Intensive Care Unit (NICU) provides lifesaving care for approximately 900 ill/premature newborns each year, and the majority of our babies go home days earlier than the national average.More than 2,500 children annually receive care in the Pediatric Intensive Care Unit (PICU) and Pediatric Medical/Surgical Unit.Western North Carolina’s only Child Life Program reduces the stress and anxiety of medical experiences through play, developmentally appropriate education for procedures and/or diagnoses, and expressive activities.",
+    "img": "https://i.ibb.co/wKYNRMY/doctor-taking-body-temperature-her-patient-hospital-room.jpg",
+    "doctor": "Dr. Farjana Kulsum"
+  },
+  {
+    "id": 8,
+    "service_code": "GC108",
+    "service_title": "Pediatric Care",
+    "service_description": "Dedicated 12-bed Pediatric ER that offers the only board-certified pediatric emergency medicine physicians in western North Carolina.51-bed, Level III Neonatal Intensive Care Unit (NICU) provides lifesaving care for approximately 900 ill premature newborns each year, and the majority of our babies go home days earlier than the national average.More than 2,500 children annually receive care in the Pediatric Intensive Care Unit (PICU) and Pediatric Medical Surgical Unit.Western North Carolina’s only Child Life Program reduces the stress and anxiety of medical experiences through play, developmentally appropriate education for procedures and/or diagnoses, and expressive activities.",
+    "img": "https://i.ibb.co/wKYNRMY/doctor-taking-body-temperature-her-patient-hospital-room.jpg",
+    "doctor": "Dr. Farjana Kulsum"
+  },
+  {
+    "id": 9,
+    "service_code": "GC109",
+    "service_title": "Surgery",
+    "service_description": "Mission Health brings together an expert team of general surgeons with specialized expertise in the diagnosis and surgical management of conditions of the alimentary tract, breast, skin and soft tissue; the abdomen; and the endocrine system. Our general surgeons are extensively trained and highly skilled, and serve patients using advanced technology, the latest surgical techniques and compassionate care.At Mission, we strive to deliver world class care close to home, and perform more general surgical procedures and more robotic surgical procedures than any other hospital system in the region. We have the only fellowship- trained surgeons in a variety of specialties, including surgical oncology, endocrine surgery and hepatobiliary surgery, ensuring you have access to an experienced team of surgeons using the most up-to-date, minimally invasive techniques.",
+    "img": "https://i.ibb.co/87nYLFn/surgeon-using-digital-tablet-operation-theater.jpg",
+    "doctor": "Dr. Jharna Zaman"
+  },
+  {
+    "id": 10,
+    "service_code": "GC110",
+    "service_title": "Surgery",
+    "service_description": "Mission Health brings together an expert team of general surgeons with specialized expertise in the diagnosis and surgical management of conditions of the alimentary tract, breast, skin and soft tissue; the abdomen; and the endocrine system. Our general surgeons are extensively trained and highly skilled, and serve patients using advanced technology, the latest surgical techniques and compassionate care.At Mission, we strive to deliver world class care close to home, and perform more general surgical procedures and more robotic surgical procedures than any other hospital system in the region. We have the only fellowship- trained surgeons in a variety of specialties, including surgical oncology, endocrine surgery and hepatobiliary surgery, ensuring you have access to an experienced team of surgeons using the most up-to-date, minimally invasive techniques.",
+    "img": "https://i.ibb.co/87nYLFn/surgeon-using-digital-tablet-operation-theater.jpg",
+    "doctor": "Dr. Jharna Zaman"
+  },
+  {
+    "id": 11,
+    "service_code": "GC111",
+    "service_title": "Stroke",
+    "service_description": "Mission Hospital's Stroke Center offers a variety of highly effective treatments that can limit damage to the brain and body during a stroke. Our multidisciplinary team of stroke experts works together to ensure the best patient-centered care for your diagnosis, treatment and rehabilitation. Also, we are dedicated to educating the community of western North Carolina to help people live healthier lives and reduce the risk of stroke.",
+    "img": "https://i.ibb.co/7jmPKhQ/female-doctor-measuring-blood-pressure-older-patient-sitting-sofa.jpg",
+    "doctor": "Dr. Nushrat Zannat"
+  },
+  {
+    "id": 12,
+    "service_code": "GC112",
+    "service_title": "Rehabilitation",
+    "service_description": "If you’re recovering from an injury or an illness, or living with a chronic condition, CarePartners and Mission Rehabilitation is committed to helping you return to the most fulfilling, independent life possible.Our expert physicians, nurses, therapists and home health professionals are not only highly experienced in rehabilitation and the most advanced therapies available; they’re dedicated, compassionate individuals who will work closely with you and your loved ones to ensure that you have the care you need.",
+    "img": "https://i.ibb.co/pQN6pWZ/smiley-covid-recovery-center-female-doctor-checking-elder-patient-s-blood-pressure.jpg",
+    "doctor": "Dr. Putul Rai"
+  }
+]
