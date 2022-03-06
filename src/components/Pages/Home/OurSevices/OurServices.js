@@ -2,11 +2,14 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import './OurServices.css';
 import { FaBacterium, FaArrowRight } from "react-icons/fa";
+import useServices from '../../../../hooks/useServices';
+import SingleOurService from './../SingleOurService/SingleOurService';
 
 const OurServices = () => {
+    const [services] = useServices();
+    // console.log(services);
     return (
         <div className='our-services py-5'>
-
             <Container>
                 <div className='section-title text-center'>
                     <span>Our Services</span>
@@ -14,66 +17,14 @@ const OurServices = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className='services-container'>
-                    <div className="service">
-                        <div className="service-icon">
-                            <FaBacterium />
-                        </div>
-                        <div className="service-info">
-                            <h3>Cancer Services</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            <a href="#">READ MORE <FaArrowRight /></a>
-                        </div>
-                    </div>
-                    <div className="service">
-                        <div className="service-icon">
-                            <FaBacterium />
-                        </div>
-                        <div className="service-info">
-                            <h3>Cancer Services</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            <a href="#">READ MORE <FaArrowRight /></a>
-                        </div>
-                    </div>
-                    <div className="service">
-                        <div className="service-icon">
-                            <FaBacterium />
-                        </div>
-                        <div className="service-info">
-                            <h3>Cancer Services</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            <a href="#">READ MORE <FaArrowRight /></a>
-                        </div>
-                    </div>
-                    <div className="service">
-                        <div className="service-icon">
-                            <FaBacterium />
-                        </div>
-                        <div className="service-info">
-                            <h3>Cancer Services</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            <a href="#">READ MORE <FaArrowRight /></a>
-                        </div>
-                    </div>
-                    <div className="service">
-                        <div className="service-icon">
-                            <FaBacterium />
-                        </div>
-                        <div className="service-info">
-                            <h3>Cancer Services</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            <a href="#">READ MORE <FaArrowRight /></a>
-                        </div>
-                    </div>
-                    <div className="service">
-                        <div className="service-icon">
-                            <FaBacterium />
-                        </div>
-                        <div className="service-info">
-                            <h3>Cancer Services</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                            <a href="#">READ MORE <FaArrowRight /></a>
-                        </div>
-                    </div>
+                    {
+                        services.slice(0, 6).map(service => <SingleOurService
+                            key={service.id}
+                            service={service}
+
+                        ></SingleOurService>)
+                    }
+
                 </div>
             </Container>
 

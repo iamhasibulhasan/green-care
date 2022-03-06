@@ -12,6 +12,7 @@ import AboutUs from './components/Pages/AboutUs/AboutUs';
 import ContactUs from './components/Pages/ContactUs/ContactUs';
 import Login from './components/Pages/Auth/Login/Login';
 import Register from './components/Pages/Auth/Register/Register';
+import SingleService from './components/Pages/SingleService/SingleService';
 
 
 function App() {
@@ -40,6 +41,9 @@ function App() {
         </Route>
         <Route path='/register'>
           <Register></Register>
+        </Route>
+        <Route path='/service/:id'>
+          <SingleService></SingleService>
         </Route>
       </Switch>
       <Footer></Footer>
