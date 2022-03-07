@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import './OurServices.css';
-import { FaBacterium, FaArrowRight } from "react-icons/fa";
 import useServices from '../../../../hooks/useServices';
 import SingleOurService from './../SingleOurService/SingleOurService';
 

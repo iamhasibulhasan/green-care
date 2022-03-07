@@ -1,21 +1,17 @@
 
-import { useState } from 'react';
 import { useEffect } from 'react';
-
-
+import { useState } from 'react';
 const useSingleService = (props) => {
-    const { id } = props;
-    const [service, setService] = useState([]);
+    const id = props;
+    const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('./services.json')
+        fetch('../services.json')
             .then(res => res.json())
-            .then(data => setService(data))
+            .then(data => setServices(data));
     }, [id]);
-
-    // return necessary things
-    return [service];
-
+    // console.log(services, id);
+    return [services];
 }
 
 export default useSingleService;

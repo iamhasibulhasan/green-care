@@ -54,16 +54,16 @@ const OurDoctors = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <div class="single-doctor-box">
-                        <div class="doctor-image">
+                    <div className="single-doctor-box">
+                        <div className="doctor-image">
                             <img src="https://templates.envytheme.com/fovia/default/assets/img/doctor/1.jpg" alt="" />
                         </div>
 
-                        <div class="doctor-content">
+                        <div className="doctor-content">
                             <h3><a href="#">Babatunde Jon</a></h3>
                             <span>Endocrinologists</span>
 
-                            <ul class="social">
+                            <ul className="social">
                                 <li><a href="#"><FaFacebookF /></a></li>
                                 <li><a href="#"><FaTwitter /></a></li>
                                 <li><a href="#"><FaYoutube /></a></li>
@@ -73,16 +73,16 @@ const OurDoctors = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class="single-doctor-box">
-                        <div class="doctor-image">
+                    <div className="single-doctor-box">
+                        <div className="doctor-image">
                             <img src="https://templates.envytheme.com/fovia/default/assets/img/doctor/2.jpg" alt="" />
                         </div>
 
-                        <div class="doctor-content">
+                        <div className="doctor-content">
                             <h3><a href="#">Babatunde Jon</a></h3>
                             <span>Endocrinologists</span>
 
-                            <ul class="social">
+                            <ul className="social">
                                 <li><a href="#"><FaFacebookF /></a></li>
                                 <li><a href="#"><FaTwitter /></a></li>
                                 <li><a href="#"><FaYoutube /></a></li>
@@ -92,16 +92,16 @@ const OurDoctors = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class="single-doctor-box">
-                        <div class="doctor-image">
+                    <div className="single-doctor-box">
+                        <div className="doctor-image">
                             <img src="https://templates.envytheme.com/fovia/default/assets/img/doctor/3.jpg" alt="" />
                         </div>
 
-                        <div class="doctor-content">
+                        <div className="doctor-content">
                             <h3><a href="#">Babatunde Jon</a></h3>
                             <span>Endocrinologists</span>
 
-                            <ul class="social">
+                            <ul className="social">
                                 <li><a href="#"><FaFacebookF /></a></li>
                                 <li><a href="#"><FaTwitter /></a></li>
                                 <li><a href="#"><FaYoutube /></a></li>
@@ -111,16 +111,16 @@ const OurDoctors = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class="single-doctor-box">
-                        <div class="doctor-image">
+                    <div className="single-doctor-box">
+                        <div className="doctor-image">
                             <img src="https://templates.envytheme.com/fovia/default/assets/img/doctor/4.jpg" alt="" />
                         </div>
 
-                        <div class="doctor-content">
+                        <div className="doctor-content">
                             <h3><a href="#">Babatunde Jon</a></h3>
                             <span>Endocrinologists</span>
 
-                            <ul class="social">
+                            <ul className="social">
                                 <li><a href="#"><FaFacebookF /></a></li>
                                 <li><a href="#"><FaTwitter /></a></li>
                                 <li><a href="#"><FaYoutube /></a></li>
@@ -130,16 +130,16 @@ const OurDoctors = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class="single-doctor-box">
-                        <div class="doctor-image">
+                    <div className="single-doctor-box">
+                        <div className="doctor-image">
                             <img src="https://templates.envytheme.com/fovia/default/assets/img/doctor/5.jpg" alt="" />
                         </div>
 
-                        <div class="doctor-content">
+                        <div className="doctor-content">
                             <h3><a href="#">Babatunde Jon</a></h3>
                             <span>Endocrinologists</span>
 
-                            <ul class="social">
+                            <ul className="social">
                                 <li><a href="#"><FaFacebookF /></a></li>
                                 <li><a href="#"><FaTwitter /></a></li>
                                 <li><a href="#"><FaYoutube /></a></li>
@@ -149,16 +149,16 @@ const OurDoctors = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class="single-doctor-box">
-                        <div class="doctor-image">
+                    <div className="single-doctor-box">
+                        <div className="doctor-image">
                             <img src="https://templates.envytheme.com/fovia/default/assets/img/doctor/6.jpg" alt="" />
                         </div>
 
-                        <div class="doctor-content">
+                        <div className="doctor-content">
                             <h3><a href="#">Babatunde Jon</a></h3>
                             <span>Endocrinologists</span>
 
-                            <ul class="social">
+                            <ul className="social">
                                 <li><a href="#"><FaFacebookF /></a></li>
                                 <li><a href="#"><FaTwitter /></a></li>
                                 <li><a href="#"><FaYoutube /></a></li>
