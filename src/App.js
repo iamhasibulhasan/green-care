@@ -9,7 +9,6 @@ import Doctors from './components/Pages/Doctors/Doctors';
 import Home from './components/Pages/Home/Home/Home';
 import Services from './components/Pages/Services/Services';
 import AboutUs from './components/Pages/AboutUs/AboutUs';
-import ContactUs from './components/Pages/ContactUs/ContactUs';
 import Login from './components/Pages/Auth/Login/Login';
 import Register from './components/Pages/Auth/Register/Register';
 import SingleService from './components/Pages/SingleService/SingleService';
@@ -32,9 +31,6 @@ function App() {
         </Route>
         <Route path='/about-us'>
           <AboutUs></AboutUs>
-        </Route>
-        <Route path='/contact-us'>
-          <ContactUs></ContactUs>
         </Route>
         <Route path='/login'>
           <Login></Login>
