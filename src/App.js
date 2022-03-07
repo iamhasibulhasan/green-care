@@ -12,11 +12,14 @@ import AboutUs from './components/Pages/AboutUs/AboutUs';
 import Login from './components/Pages/Auth/Login/Login';
 import Register from './components/Pages/Auth/Register/Register';
 import SingleService from './components/Pages/SingleService/SingleService';
+import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './components/Pages/Auth/PrivateRoute/PrivateRoute';
 
 
 function App() {
   return (
-    <Router>
+    <AuthProvider>
+      <Router>
       <TopHeader></TopHeader>
       <Header></Header>
       <Switch>
@@ -38,12 +41,13 @@ function App() {
         <Route path='/register'>
           <Register></Register>
         </Route>
-        <Route path='/service/:id'>
+          <PrivateRoute path='/service/:id'>
           <SingleService></SingleService>
-        </Route>
+          </PrivateRoute>
       </Switch>
       <Footer></Footer>
     </Router>
+    </AuthProvider>
   );
 }
 

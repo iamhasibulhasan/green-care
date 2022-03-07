@@ -5,7 +5,7 @@ import useDoctors from './../../../hooks/useDoctors';
 
 const Doctors = () => {
     const [doctors] = useDoctors();
-    console.log(doctors);
+    // console.log(doctors);
     return (
         <Container className='my-5'>
             <div className="doctors-info">
