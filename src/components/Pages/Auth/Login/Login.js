@@ -5,12 +5,13 @@ import { FaFacebookF, FaGoogle, FaUserAlt, FaKey } from "react-icons/fa";
 import useAuth from './../../../../hooks/useAuth';
 import { useLocation } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
+import { useState } from 'react';
 
 const Login = () => {
 
     // * import Auth method
 
-    const { user, signInUsingGoogle } = useAuth();
+    const { user, signInUsingGoogle, signInUsingEmail } = useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_url = location.state?.from || '/';
@@ -19,11 +20,29 @@ const Login = () => {
     if (user.email) {
         history.push('/')
     }
+    // Google Login
     const handleGoogleLogin = () => {
         signInUsingGoogle()
             .then(result => {
                 history.push(redirect_url);
             })
+    }
+    // Email and password login
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const handleEmail = (e) => {
+        setEmail(e.target.value);
+        console.log(email);
+    }
+    const handlePassword = (e) => {
+        setPassword(e.target.value);
+        console.log(password);
+    }
+    const handleRegistration = (e) => {
+        e.preventDefault();
+        console.log(email, password);
+        signInUsingEmail(email, password);
+
     }
 
     return (
@@ -39,7 +58,7 @@ const Login = () => {
                                 <FaUserAlt />
                             </div>
                             <div className="utext">
-                                <Form.Control type="text" placeholder="user@example.com" />
+                                <Form.Control onBlur={handleEmail} type="text" name="email" placeholder="user@example.com" />
                             </div>
                         </div>
                     </Form.Group>
@@ -49,11 +68,11 @@ const Login = () => {
                                 <FaKey />
                             </div>
                             <div className="utext">
-                                <Form.Control type="password" placeholder="password" />
+                                <Form.Control onBlur={handlePassword} type="password" name='password' placeholder="password" />
                             </div>
                         </div>
                     </Form.Group>
-                    <input className='btn btn-outline-success login-btn' type="submit" value="Login Now" />
+                    <input onClick={handleRegistration} className='btn btn-outline-success login-btn' type="submit" value="Login Now" />
                 </Form>
                 <hr />
                 <div className="login-social">
